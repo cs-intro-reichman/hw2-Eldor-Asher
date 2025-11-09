@@ -26,7 +26,7 @@ public class Collatz {
                                                 if (number == 1)
                                                 {
                                                             flag = false;
-                                                            sequence+= "" +String.valueOf(number);
+                                                            sequence+= " " +String.valueOf(number);
                                                 }
                                                
                                     }
@@ -39,6 +39,6 @@ public class Collatz {
                                     counter =1;
                                     sequence = "";          
                         }
-                        System.out.println("Every one of the first " + N + " hailstone sequences reached 1");
+                        System.out.println(" Every one of the first " + N + " hailstone sequences reached 1");
             }
 }
