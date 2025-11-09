@@ -6,7 +6,7 @@ public class Collatz {
                         int N = Integer.parseInt(args[0]);
                         String letter = args[1];
                         String sequence = "";
-                        int counter = 0;
+                        int counter = 1;
                         int number = 1;
                         boolean flag = true;
                         for (int i = 1; i <= N; i++)
