@@ -32,7 +32,7 @@ public class Collatz {
                                     }
                                     number = i +1;
                                     flag = true;
-                                    if (letter.equals(""+ "v"))
+                                    if (letter.equals("v"))
                                     {
                                                 System.out.println(sequence + " (" + counter +")");
                                     }
