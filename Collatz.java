@@ -26,7 +26,7 @@ public class Collatz {
                                                 if (number == 1)
                                                 {
                                                             flag = false;
-                                                            sequence+= " " +String.valueOf(number);
+                                                            sequence+= "" +String.valueOf(number);
                                                 }
                                                
                                     }
