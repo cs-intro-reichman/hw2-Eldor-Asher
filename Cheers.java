@@ -18,11 +18,11 @@ public class Cheers {
                         char c = word.charAt(i);
                         if (letters.contains("" + c))
                         {
-                                System.out.println("give me an " + args[0].charAt(i));
+                                System.out.println("give me an " + args[0].charAt(i) + ": " + args[0].charAt(i) + "!");
                         }
                         else
                         {
-                                System.out.println("give me a  " + args[0].charAt(i));
+                                System.out.println("give me a  " + args[0].charAt(i) + ": " + args[0].charAt(i) + "!");
                         }
                         i++;
                 }
