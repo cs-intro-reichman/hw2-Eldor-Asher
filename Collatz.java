@@ -13,7 +13,7 @@ public class Collatz {
                         {
                                     while (flag)
                                     {
-                                                sequence += " " +String.valueOf(number);
+                                                sequence += String.valueOf(number) + " ";
                                                 if (number % 2 == 0)
                                                 {
                                                             number = number / 2;
@@ -26,7 +26,7 @@ public class Collatz {
                                                 if (number == 1)
                                                 {
                                                             flag = false;
-                                                            sequence+= " " +String.valueOf(number);
+                                                            sequence+= String.valueOf(number);
                                                 }
                                                
                                     }
