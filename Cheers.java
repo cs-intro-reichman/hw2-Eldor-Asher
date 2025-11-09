@@ -15,6 +15,7 @@ public class Cheers {
                 String letters = "AEFHILMNORSX";
                 while (i < word.length())
                 {
+                        word = word.toUpperCase();
                         char c = word.charAt(i);
                         if (letters.contains("" + c))
                         {
